@@ -293,6 +293,16 @@ li.dummy.active {
 	z-index: -1;
 }
 
+.motto {
+	margin-top: 250px;
+	border: 1px dotted gray;
+}
+
+.logo.sign {
+	float: right;
+	width: 60px;
+	height: 32px;
+}
 /* qualification section */
 .summary {
 	margin-top: 15px;
@@ -309,6 +319,47 @@ li.dummy.active {
 	line-height: 24px;
 	font-style: italic;
 	color: #333;
+}
+
+.rounded {
+	-webkit-border-radius: 10px;    
+  border-radius: 10px;
+  background-color: rgba(250, 250, 250, 0.7);         
+  color: rgba(250, 250, 250, 0.7);
+  padding: 15px;
+}
+
+#coupleCons {
+  width: 600px;
+  height: 400px;
+	background-image: url('../img/coupleCons.png') ;
+	background-size: contain;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+
+#coupleCons .rounded{
+	width: 300px;
+	left: -150px;
+	top: 200px;
+	position: relative;
+}
+
+#proCons {
+  width: 600px;
+  height: 399px;
+	background-image: url('../img/proCons.jpg') ;
+	background-size: contain;
+	margin-left: 270px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#proCons .rounded{
+	width: 700px;
+	left: -240px;
+	top: 200px;
+	position: relative;
 }
 
 /* skill section */
